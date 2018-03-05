@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h4, p, a, li{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul{
+  list-style: none;
+  line-height: 1.5;
+}
+ul li{
+  position: relative;
+  margin-top: 1rem;
+  
+ 
+}
+
+ul li h2{
+  display: inline-block;
+}
+h1{
+  font-size: 2.8em;
+  /* font-size: 2.8rem; */
+  
+}
+
+h2{
+  font-size: 1.3rem;
+  font-weight: 800;
+  
+}
+h3{
+  font-size: 2.8rem;
+}
+h4, p{
+  font-size: 1.3rem;
+  
+
+}
+
+header{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  /* background-color: black;
+  color: white; */
+}
+
+.education{
+  margin-top: .5rem;
+  padding: .5rem 2rem .5rem 4.5rem;
+  /* background-color: black;
+  color: white; */
+}
+
+
+.logo{
+  width: 40px;
+  margin-right: 1rem;
+  vertical-align: middle;
+  
+
+}
+
+.examples{
+  margin-top: 24rem;
+
+}
+article{
+  background-color: #fff;  
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  
+}
+figure{
+  position: relative;
+}
+figcaption {
+  position: absolute;
+  display: block;
+  width: 100%;
+  text-align: left;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+figcaption h2{
+  font-weight: 800;
+}
+figure img{
+  filter: brightness(.4);
+}
+
+.content-element{
+  height: 15rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  
+}
+.no-margin{
+  margin-bottom: 0;
+}
+
+.subtitle{
+ width: 95%;
+ margin: 0 auto;
+ 
+}
+.subtitle h2{
+  display: inline-block;
+  margin-top: 2rem;
+
+
+}
+
+.main-footer{
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+}
+
+
+.fab{
+  margin-left: 1rem;
+}
+
+
+

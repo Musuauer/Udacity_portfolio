@@ -119,7 +119,7 @@ figcaption h2{
   font-weight: 800;
 }
 figure img{
-  filter: brightness(.4);
+  /* filter: brightness(.4); */
 }
 
 .content-element{

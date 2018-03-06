@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
 
-
+ /* reseter */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* SMARTPHONE VERSION and FALLBACK for browsers that don't support grid*/
 
 h1, h2, h4, p, a, li{
   font-family: 'Open Sans', sans-serif;
@@ -16,32 +18,18 @@ a{
   color: black;
 }
 .container{
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
 }
 
-ul{
-  list-style: none;
-  line-height: 1.5;
-}
-ul li{
-  position: relative;
-  margin-top: 1rem;
-  
- 
-}
-
-ul li h2{
-  display: inline-block;
-}
 h1{
-  font-size: 2.8em;
-  /* font-size: 2.8rem; */
+  font-size: 2.5em;
+ 
   
 }
 
 h2{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 800;
   
 }
@@ -49,11 +37,10 @@ h3{
   font-size: 2.8rem;
 }
 h4, p{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   
-
 }
-
+/*---- header -----*/
 header{
   position: fixed;
   top: 0;
@@ -61,20 +48,23 @@ header{
   left: 0;
   right: 0;
   z-index: -1;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
-  padding-top: 1rem;
+  padding-top: 2rem;
   /* background-color: black;
   color: white; */
 }
-
+.name{
+  width: 100%;
+}
 .education{
   margin-top: .5rem;
-  padding: .5rem 2rem .5rem 4.5rem;
-  /* background-color: black;
-  color: white; */
+  padding: .5rem 1.3rem .5rem 3.8rem;
+  line-height: 2;
+  /* /* background-color: black; */
+  
 }
-
+/* ----content------- */
 
 .logo{
   width: 40px;
@@ -85,7 +75,7 @@ header{
 }
 
 .examples{
-  margin-top: 24rem;
+  margin-top: 35rem;
 
 }
 article{
@@ -119,7 +109,7 @@ figcaption h2{
   font-weight: 800;
 }
 figure img{
-  /* filter: brightness(.4); */
+  filter: brightness(.5);
 }
 
 .content-element{
@@ -133,7 +123,7 @@ figure img{
 }
 
 .subtitle{
- width: 95%;
+ width: 100%;
  margin: 0 auto;
  
 }
@@ -143,22 +133,25 @@ figure img{
 
 
 }
+/* -----footer----------- */
 
 .main-footer{
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
-  margin-top: 1rem;
+  padding-top: 1.4rem;
   margin-bottom: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  background-color: white;
 
 }
-
 
 .fab{
-  margin-left: 1rem;
+  margin-left: .5rem;
 }
+
+/* END SMARTPHONE / FALLBACK */
 
 
 

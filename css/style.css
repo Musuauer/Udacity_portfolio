@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
 }
 
 h4,
@@ -115,11 +115,11 @@ figcaption {
   display: block;
   width: 100%;
   text-align: left;
-  top: 40%;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  transform: translate(-48%, -50%);
   color: white;
   letter-spacing: 2px;
   line-height: 1;
@@ -148,7 +148,6 @@ figure img {
 
 .subtitle-web h2 {
   display: inline-block;
-  /* margin-top: 2rem; */
   padding: 1rem 0;
 }
 
@@ -212,11 +211,11 @@ figure img {
     max-width: 1400px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: (auto)[6];
     grid-template-rows: repeat(6, auto);
-    -ms-grid-columns: (31.33%)[3];
     grid-template-columns: repeat(3, 31.33%);
     grid-column-gap: 3%;
+    -ms-grid-rows: (auto)[6];
+    -ms-grid-columns: (31.33%)[3];
   }
   .content-web {
     -ms-grid-row: 3;

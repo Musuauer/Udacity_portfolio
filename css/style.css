@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+/* reseter */
 
- /* reseter */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,40 +9,48 @@
 
 /* SMARTPHONE VERSION and FALLBACK for browsers that don't support grid*/
 
-h1, h2, h4, p, a, li{
+h1,
+h2,
+h4,
+p,
+a,
+li {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
-a{
+
+a {
   text-decoration: none;
   color: black;
 }
-.container{
+
+.container {
   position: relative;
   width: 95%;
   margin: 0 auto;
 }
 
-h1{
+h1 {
   font-size: 2.5em;
- 
-  
 }
 
-h2{
+h2 {
   font-size: 1.2rem;
   font-weight: 800;
-  
 }
-h3{
+
+h3 {
   font-size: 2.8rem;
 }
-h4, p{
+
+h4,
+p {
   font-size: 1.2rem;
-  
 }
+
 /*---- header -----*/
-header{
+
+header {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -56,7 +64,7 @@ header{
   color: white; */
 }
 
-.education{
+.education {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -69,37 +77,38 @@ header{
   padding: .5rem 1.3rem .5rem 3.8rem;
   line-height: 2;
   /* /* background-color: black; */
-  
 }
+
 /* ----content------- */
 
-.logo{
+.logo {
   width: 40px;
   margin-right: 1rem;
   vertical-align: middle;
-  
-
 }
 
-.subtitle-web{
+.subtitle-web {
   margin-top: 35rem;
-  background-color: #fff;  
-}
-.subtitle-photography{
-  background-color: #fff;  
-}
-article{
-  background-color: #fff;  
+  background-color: #fff;
 }
 
-img{
+.subtitle-photography {
+  background-color: #fff;
+}
+
+article {
+  background-color: #fff;
+}
+
+img {
   width: 100%;
   height: 100%;
-  
 }
-figure{
+
+figure {
   position: relative;
 }
+
 figcaption {
   position: absolute;
   display: block;
@@ -113,109 +122,97 @@ figcaption {
   line-height: 1;
   text-transform: uppercase;
   /* text-decoration: none; */
-
 }
-figcaption h2{
+
+figcaption h2 {
   font-weight: 800;
 }
-figure img{
+
+figure img {
   filter: brightness(.5);
 }
 
-.content-element{
+.content-element {
   background-color: #fff;
   height: 16rem;
   box-sizing: content-box;
   padding: 2rem 0;
   /* margin-bottom: 1.5rem;
   margin-top: 1.5rem; */
-  
 }
 
-.subtitle-web h2{
+.subtitle-web h2 {
   display: inline-block;
   /* margin-top: 2rem; */
   padding: 1rem 0;
-
 }
-.subtitle-photography h2{
+
+.subtitle-photography h2 {
   display: inline-block;
   padding: 1rem 0;
-
 }
+
 /* -----footer----------- */
 
-.main-footer{
+.main-footer {
   padding-top: 1.4rem;
-  margin-bottom: 5rem;
+  padding-bottom: 9rem;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   background-color: white;
-
 }
 
-.fab{
+.fab {
   margin-left: .5rem;
 }
 
 /* END SMARTPHONE / FALLBACK ------------------*/
 
-
 /* ---MEDIA QUERIES-----breakpoint 550px-------- */
 
-@media only screen and (min-width: 550px){
-  .container{
+@media only screen and (min-width: 550px) {
+  .container {
     width: 70%;
     max-width: 600px;
     margin: 0 auto;
     margin-top: 3rem;
   }
-
-  header{
+  header {
     padding-top: 2rem;
     width: 70%;
     max-width: 600px;
-
   }
-  .education{
+  .education {
     width: 70%;
     max-width: 600px;
     padding-top: 3rem;
   }
-
-  .subtitle-web{
+  .subtitle-web {
     margin-top: 33rem;
-  
   }
-
-
-
 }
-
 
 /* ---MEDIA QUERIES-----breakpoint 1000px-------- */
 
-@media only screen and (min-width: 1000px){
-
-  .container{
+@media only screen and (min-width: 1000px) {
+  .container {
     width: 90%;
     max-width: 1400px;
     display: grid;
-    grid-template-rows: repeat(6,auto);
-    grid-template-columns: repeat(3,31.33%);
+    grid-template-rows: repeat(6, auto);
+    grid-template-columns: repeat(3, 31.33%);
     grid-column-gap: 3%;
   }
-  .content-web{
+  .content-web {
     grid-row: 3/4;
     grid-column: 1/4;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: white;
-   
   }
-  .content-photography{
+  .content-photography {
     grid-row: 5/6;
     grid-column: 1/4;
     display: flex;
@@ -223,38 +220,32 @@ figure img{
     justify-content: space-between;
     background-color: white;
   }
-  figcaption:hover{
+  figcaption:hover {
     text-decoration: underline;
   }
-  .contact a:hover{
+  .contact a:hover {
     text-decoration: underline;
   }
-  .logo:hover{
+  .logo:hover {
     transform: scale(1.1);
     transition: .3s ease all;
-
   }
-
-  .fab:hover{
+  .fab:hover {
     transform: scale(1.1);
     transition: .3s ease all;
-
   }
-  header{
+  header {
     width: 100%;
     max-width: 1400px;
     padding-top: 0;
-    
   }
-
-  .name{
+  .name {
     position: sticky;
     top: 3rem;
     grid-row: 1/2;
     grid-column: 1/3;
   }
-
-  .education{
+  .education {
     width: 100%;
     position: sticky;
     top: 3rem;
@@ -263,29 +254,24 @@ figure img{
     grid-row: 1/2;
     grid-column: 3/4;
   }
-
-  .subtitle-web{
+  .subtitle-web {
     grid-row: 2/3;
     grid-column: 1/4;
     background-color: white;
   }
-
-  .subtitle-photography{
+  .subtitle-photography {
     grid-row: 4/5;
     grid-column: 1/4;
     background-color: white;
   }
-  .subtitle-web{
+  .subtitle-web {
     margin: 0;
-  
   }
-
-  .content-element{
+  .content-element {
     width: 31.33%;
     margin: 0;
   }
-
-  .main-footer{
+  .main-footer {
     padding-top: 1.4rem;
     margin-bottom: 5rem;
     display: flex;
@@ -294,12 +280,8 @@ figure img{
     background-color: white;
     grid-row: 6/7;
     grid-column: 1/4;
-  
   }
-  
-  .fab{
+  .fab {
     margin-left: .5rem;
   }
-  
-
 }

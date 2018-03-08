@@ -59,8 +59,7 @@ header {
   width: 95%;
   margin: 0 auto;
   padding-top: 2rem;
-  /* background-color: black;
-  color: white; */
+
 }
 
 .education {
@@ -123,7 +122,7 @@ figcaption {
 }
 
 figcaption a {
-  color: white;
+  color: #fff;
   font-weight: 800;
 }
 
@@ -164,7 +163,7 @@ figure img {
   -webkit-box-align: baseline;
   -ms-flex-align: baseline;
   align-items: baseline;
-  background-color: white;
+  background-color: #fff;
 }
 
 .fab {
@@ -251,7 +250,7 @@ figure img {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    background-color: white;
+    background-color: #fff;
   }
   .content-photography {
     -ms-grid-row: 5;
@@ -270,7 +269,7 @@ figure img {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    background-color: white;
+    background-color: #fff;
   }
   figcaption a:hover {
     text-decoration: underline;
@@ -340,7 +339,7 @@ figure img {
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
     grid-column: 1/4;
-    background-color: white;
+    background-color: #fff;
   }
   .subtitle-web {
     margin: 0;
@@ -361,7 +360,7 @@ figure img {
     -webkit-box-align: baseline;
     -ms-flex-align: baseline;
     align-items: baseline;
-    background-color: white;
+    background-color: #fff;
     -ms-grid-row: 6;
     -ms-grid-row-span: 1;
     grid-row: 6/7;

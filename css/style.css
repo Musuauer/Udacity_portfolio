@@ -43,7 +43,7 @@ h3 {
   font-size: 2.5rem;
 }
 
-h4{
+h4 {
   font-size: 1.2rem;
 }
 
@@ -117,13 +117,12 @@ figcaption {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-48%, -50%);
-  
   letter-spacing: 2px;
   line-height: 1;
   text-transform: uppercase;
 }
 
-figcaption a{
+figcaption a {
   color: white;
   font-weight: 800;
 }
@@ -139,7 +138,6 @@ figure img {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
   padding: 2rem 0;
-
 }
 
 .subtitle-web h2 {
@@ -202,8 +200,7 @@ figure img {
 /* ---MEDIA QUERIES-----breakpoint 1000px-------- */
 
 @media only screen and (min-width: 1000px) {
-
-  .header-wrapper{
+  .header-wrapper {
     z-index: -1;
     position: fixed;
     top: 3rem;
@@ -219,7 +216,6 @@ figure img {
     margin: 0;
     padding: 0;
   }
-  
   .education {
     position: relative;
     width: 31.33%;
@@ -237,8 +233,6 @@ figure img {
     grid-template-rows: repeat(6, auto);
     grid-template-columns: repeat(3, 31.33%);
     grid-column-gap: 3%;
-    
-    
   }
   .content-web {
     -ms-grid-row: 3;
